@@ -1,0 +1,148 @@
+/* 2) layout (wireframes, major elements laid out)
+ - headers, 
+ - footer,
+ - nav
+ - sections, width for body */
+
+body {
+    width: 480px;
+    margin: auto;
+}
+
+header, section, footer {
+    border: 1px solid black;
+    text-align: center;
+}
+
+header {
+    height: 75px;
+    line-height: 75px;
+    background-color: blue;
+}
+
+ /* section b */
+ section:first-child{
+    height: 150px;
+    line-height: 150px;
+    background-color: coral;
+}
+
+/* section c,d */
+section:nth-child(2), section:nth-child(3){
+    height: 125px;
+    line-height: 125px;
+    background-color: cyan;
+}
+
+/* section d color */
+section:nth-child(3){
+    background-color: green;
+}
+
+/* efgh */
+section:nth-child(4), section:nth-child(5), section:nth-child(6),section:nth-child(7){
+    height: 250px;
+    width: 50%;
+    line-height: 250px;
+    float: left;
+}
+
+section:nth-child(4){
+    background-color: red;
+}
+
+section:nth-child(5){
+    background-color: orange;
+}
+
+section:nth-child(6){
+    background-color: pink;
+}
+
+section:nth-child(7){
+    background-color: salmon;
+}
+
+footer{
+    height: 80px;
+    line-height: 80px;
+    background-color: purple;
+    clear: both;
+}
+
+
+
+ @media (min-width:768px){
+
+body {
+    width: 960px;
+}
+
+header {
+    width: 960px;
+    height: 100px;
+    line-height: 100px;
+    background-color: lightblue;
+}
+
+ /* section b */
+ section:first-child{
+    height: 600px;
+    line-height: 600px;
+    width: 200px;
+    background-color: coral;
+    float: left;
+}
+
+/* section c,d */
+section:nth-child(2), section:nth-child(3){
+    height: 200px;
+    line-height: 200px;
+    width: 380px;
+    background-color: rgb(5, 110, 110);
+    float: left;
+}
+
+/* section d color */
+section:nth-child(3){
+    background-color: rgb(67, 192, 67);
+}
+
+/* efgh */
+section:nth-child(4), section:nth-child(5), section:nth-child(6),section:nth-child(7){
+    height: 250px;
+    width: 190px;
+    line-height: 250px;
+    float: left;
+}
+
+section:nth-child(4){
+    background-color: rgb(233, 93, 93);
+}
+
+section:nth-child(5){
+    background-color: rgb(241, 196, 111);
+}
+
+section:nth-child(6){
+    background-color: rgb(117, 22, 38);
+}
+
+section:nth-child(7){
+    background-color: rgb(211, 22, 1);
+} 
+
+
+footer {
+    height: 150px;
+    line-height: 150px;
+    width: 760px;
+    background-color: rgb(236, 124, 236);
+    clear: both;
+    display: inline-block;
+    /* float: right; */
+    
+}
+
+
+}
