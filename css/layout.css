@@ -20,16 +20,54 @@ header {
     background-color: blue;
 }
 
+ /* section b */
+ section:first-child{
+    height: 150px;
+    line-height: 150px;
+    background-color: coral;
+}
 
+/* section c,d */
+section:nth-child(2), section:nth-child(3){
+    height: 125px;
+    line-height: 125px;
+    background-color: cyan;
+}
 
+/* section d color */
+section:nth-child(3){
+    background-color: green;
+}
 
+/* efgh */
+section:nth-child(4), section:nth-child(5), section:nth-child(6),section:nth-child(7){
+    height: 250px;
+    width: 50%;
+    line-height: 250px;
+    float: left;
+}
 
+section:nth-child(4){
+    background-color: red;
+}
 
+section:nth-child(5){
+    background-color: orange;
+}
 
-footer {
+section:nth-child(6){
+    background-color: pink;
+}
+
+section:nth-child(7){
+    background-color: salmon;
+}
+
+footer{
     height: 80px;
     line-height: 80px;
     background-color: purple;
+    clear: both;
 }
 
 
