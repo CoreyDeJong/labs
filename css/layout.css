@@ -1,0 +1,56 @@
+/* 2) layout (wireframes, major elements laid out)
+ - headers, 
+ - footer,
+ - nav
+ - sections, width for body */
+
+body {
+    width: 480px;
+    margin: auto;
+}
+
+header, section, footer {
+    border: 1px solid black;
+    text-align: center;
+}
+
+header {
+    height: 75px;
+    line-height: 75px;
+    background-color: blue;
+}
+
+
+
+
+
+
+
+footer {
+    height: 80px;
+    line-height: 80px;
+    background-color: purple;
+}
+
+
+
+ @media (min-width:768px){
+
+body {
+    width: 960px;
+}
+
+header {
+    height: 100px;
+    line-height: 100px;
+    background-color: lightblue;
+}
+
+footer {
+    height: 150px;
+    line-height: 150px;
+    background-color: rgb(167, 87, 167);
+}
+
+
+ }
